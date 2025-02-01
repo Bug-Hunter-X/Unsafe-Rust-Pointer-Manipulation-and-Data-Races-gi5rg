@@ -1,0 +1,3 @@
+# Unsafe Rust Pointer Manipulation and Data Races
+
+This repository demonstrates a potential error when using raw pointers in Rust and provides a safer alternative using safe Rust techniques.  Improper handling of raw pointers can result in data races, memory corruption, and undefined behavior.  The example shows how a seemingly simple modification can have unintended consequences if not handled with extreme care and understanding of memory management.
